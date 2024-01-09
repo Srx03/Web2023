@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>User Notes</title>
+    <link rel="stylesheet" type="text/css" href="user.css">
+</head>
+<body>
+  <header>
+    <h1>User Notes</h1>
+  </header>
+    <div class="container">
+      <div class="search-container">
+            <input type="text" id="search-input" class="note-input" placeholder="Search Notes">
+            <button id="search-btn" class="btn">Search</button>
+      </div>
+      <form id="note-form">
+        <input type="hidden" id="note-id">
+        <input type="text" id="note-value" class="note-input" placeholder="Enter note">
+        <button type="submit" class="btn" id="save-note-btn">Save Note</button>
+      </form>
+      <ul id="note-list"></ul>
+    </div> 
+  <footer>
+    <button class="btn" id="logout-btn">Logout</button>
+  </footer>
+  <script src="userscript.js"></script>
+</body>
+</html>

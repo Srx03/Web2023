@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Management</title>
+    <link rel="stylesheet" type="text/css" href="adminstyle.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to User Management</h1>
+    </header>
+    <div class="container">
+        <h2>User Management</h2>
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Search by Email...">
+            <button id="search-btn">Search</button>
+        </div>
+        <table id="userTable">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Email</th>
+                    <th>Password</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+    <div id="errorPopup" class="popup">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+            <p id="errorMessage"></p>
+        </div>
+    </div>
+    <footer>
+        <p>Logged in as: Admin</span></p>
+        <button id="logoutBtn">Logout</button>
+    </footer>
+
+    <script src="adminscript.js"></script>
+</body>
+</html>

@@ -1,0 +1,120 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  width: 325px;
+  margin: auto;
+  overflow-wrap: break-word;
+  margin-bottom: 100px;
+}
+
+#note-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.note-item {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+}
+
+.note-value {
+  font-weight: bold;
+  margin-bottom: 5px;
+  max-width: 300px;
+}
+
+.note-input {
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  width: 190px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.btn {
+  padding: 8px 16px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100px;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+.delete-button {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 285px;
+  margin-top: 8px;
+}
+
+.edit-button {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 285px;
+  margin-top: 8px;
+}
+
+header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: #333;
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer #loggedInUser {
+    font-weight: bold;
+}
+
+footer #logout-btn {
+    padding: 8px 20px;
+    background-color: #f44336;
+    margin-top: 10px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 50px;
+}
+
+footer #logoutBtn:hover {
+    background-color: #555;
+}
